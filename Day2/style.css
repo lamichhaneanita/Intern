@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+}
+
+
+.container {
+display: flex;
+width: 50px;
+height: 50px;
+flex-direction: row;
+}
+
+.red {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    width: 150px;
+    height: 100px;
+    margin-right: 16px;
+}
+.yellow {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    width: 150px;
+    height: 100px;
+    margin-right: 12px;
+
+}
+.green {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    width: 300px;
+    height: 100px;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.firstComponentConatiner {
+    display: flex;
+}
+
+.orange {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    width: 150px;
+    height: 100px;
+    margin-right: 16px;
+}
+.pink {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(168, 46, 67);
+    width: 150px;
+    height: 100px;
+    margin-right: 12px;
+
+}
+.white{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+}
+.black{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    width: 300px;
+    height: 100px;
+}
+.SecondComponentContainer{
+    display: flex;
+}
+.container1{
+    display: flex;
+    margin-left: 12px;
+    flex-direction: row;
+}
