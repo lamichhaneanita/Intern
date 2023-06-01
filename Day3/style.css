@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(197, 184, 184);
+    width: 100%;
+
+}
+.Maincontainer{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.firstcontainer{
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 0;
+    border: 3px;
+
+}
+.secondcontainer{
+    background-color: blue;
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    right: 0;
+    border: 3px;
+}
+.thirdcontainer{
+    background-color: black;
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    border: 3px;
+}
+.forthcontainer{
+    background-color: purple;
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    right: 0;
+    bottom: 0;
+    border: 3px;
+}
+.fifthcontainer{
+      position: absolute;
+      background-color: yellow;
+      top: 50%;
+      right: 50%;
+      height: 90px;
+      width: 100px;
+}
