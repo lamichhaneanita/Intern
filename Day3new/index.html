@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Page</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/bed3f32596.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <div class="navbar">
-      <div class="menuwrap">
-        <div class="logo">
-          <h3>BrandName</h3>
-        </div>
-        <div class="Menu">
-          <li>Home</li>
-          <li>Product</li>
-          <li>Pricing</li>
-          <li>Contact</li>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/bed3f32596.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="menuwrap">
+      <div class="logo">
+        <h3><a href="#logo">BrandName</a></h3>
       </div>
-      <div class="login">
-        login
-       <button type="button">JOIN US</button>
+      <div class="Menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
       </div>
     </div>
+    <div class="login">
+      login
+      <button type="button">JOIN US</button>
+    </div>
+  </div>
+  <div class="login-form-container">
+    <span class="fas fa-times" id="close-login-form"></span>
+    <form action="">
+      <h3>user login</h3>
+      <input type="email" placeholder="email" class="box">
+      <input type="password" placeholder="password" class="box">
+      <p>Forget your password<a href="#">Click here</a></p>
+      <input type="submit" value="login now" class="btn">
+      <p>or login with</p>
+      <div class="buttons">
+        <a href="#" class="btn">google</a>
+        <a href="#" class="btn">facebook</a>
+      </div>
+      <p>don't have an account <a href="#">create an account</a></p>
+    </form>
+  </div>
+
+  <section id="home" class="home">
     <div class="secondcontainer">Online training</div>
     <div class="thirdcontainer">
       <h1>COURSES OF <br />EXCELLENT <br />QUALITY</h1>
@@ -59,19 +75,82 @@
         <p>Training Course</p>
         <hr>
         <p>
-            The gradual accumulation of<br />
-            information about atomic and <br />small scale behavior...
-          </p>
+          The gradual accumulation of<br />
+          information about atomic and <br />small scale behavior...
+        </p>
       </div>
       <div class="box3">
-        <i class="fa fa-check fa-3x" ></i>
+        <i class="fa fa-check fa-3x"></i>
         <p>Training Course</p>
         <hr>
         <p>
-            The gradual accumulation of<br />
-            information about atomic and <br />small scale behavior...
-          </p>
+          The gradual accumulation of<br />
+          information about atomic and <br />small scale behavior...
+        </p>
       </div>
     </div>
-  </body>
+  </section>
+  <main>
+    <section class="pricing-table" id="pricing">
+      <div class="plan">
+        <h2>Basic</h2>
+        <p class="price">$19.99/month</p>
+
+        Access to course materials<br>
+        Email support
+        <br>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+
+      <div class="plan">
+        <h2>Pro</h2>
+        <p class="price">$29.99/month</p>
+
+        Access to course materials<br>
+        Email support<br>
+        Live Q&A sessions
+        <br>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+
+      <div class="plan">
+        <h2>Premium</h2>
+        <p class="price">$49.99/month</p>
+
+        Access to course materials<br>
+        Email support<br>
+        Live Q&A sessions<br>
+        Personalized feedback<br>
+
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </section>
+  </main>
+
+
+  <div class="contact" id="contact">
+    <h2>Contact Form</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <input type="submit" value="Submit" class="submit-button">
+    </form>
+
+  </div>
+
+
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Online Course. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>

@@ -67,7 +67,7 @@ fetch("https://rest-api-bjno.onrender.com/register", {
 })
 }  
 
- function submit(){
+function submit(){
 fetch('https://rest-api-bjno.onrender.com/users',{
    method: 'GET',
 

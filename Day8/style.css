@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(129, 129, 226);
+}
+.container{
+    background-color: white;
+    width: 30%;
+    height: 8vh;
+    border-radius: 0.62em;
+    position: absolute;
+   
+    top: 40%;
+    left: 20%;
+    box-shadow: ;
+}
+/* .inputWrapper {
+    display: grid;
+    gap: 2px;
+} */
+.inputWrapper input{
+   position: absolute;
+   top: 30%;
+   left: 10%;
+
+
+}
+.inputWrapper button{
+    align-items: center;
+}
