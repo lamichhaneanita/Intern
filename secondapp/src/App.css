@@ -1,0 +1,134 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Project{
+    width: 100%;
+    /* background-color: rgb(121, 97, 97); */
+    color: black;
+    margin-bottom: 50px;
+    /* display: flex; */
+  
+}
+.Project .Wrap {
+  display: flex;
+  gap: 5px;
+ padding-bottom: 20px;
+ 
+  
+}
+.Project .Wrap h3{
+  margin-top: 14px;
+  font-size: 20px;
+  
+ 
+}
+
+.Project .Wrap h3 a{
+  color: rgb(131, 129, 129);
+ 
+  
+}
+ .Project .Wrap h1{
+  color: black;
+  margin-right: 350px;
+  margin-bottom: 20px;
+  font-size: 40px;
+ 
+}
+.Project .Wrapper{
+  width: 700px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+ 
+  
+ 
+}
+.Container{
+  display: flex;
+  flex-direction: column;
+  
+}
+/* .Container h2 {
+  color: rgb(206, 19, 19);
+  /* align-items: center; */
+  /* display: flex;
+  justify-content: center; */
+
+ */
+/* .Container p{
+  color: rgb(83, 82, 82);
+  margin-bottom: 80px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: center;
+
+} */
+.Container .title{
+  background-color: rgb(119, 119, 204);
+  
+  /* display: flex;
+  flex-direction: row; */
+}
+ .Container .title h2{
+  color: rgb(27, 27, 27);
+  display: flex;
+  
+} 
+.Container .title p{
+  color: rgb(126, 121, 121);
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 150px;
+  
+}
+
